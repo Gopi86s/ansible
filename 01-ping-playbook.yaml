@@ -2,4 +2,4 @@
   hosts: frontend
   tasks: 
   - name: ping the server
-    ansible.builtin.ping:git@github.com:Gopi86s/ansible.git
+    ansible.builtin.ping:
