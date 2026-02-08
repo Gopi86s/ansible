@@ -6,7 +6,7 @@
       TRAINER: Shiva
       DURIATION: 120Hrs
   tasks: 
-  - name: playing with variables
+  - name: print the course info
     ansible.builtin.debug:
-     msg: "Hello Course name is: {{COURCE}}, Trainer: {{TRAINER}}, Duriation: {{DURIATION}}"
+     msg: "Course name is: {{COURCE}}, Trainer: {{TRAINER}}, Duriation: {{DURIATION}}"
 
