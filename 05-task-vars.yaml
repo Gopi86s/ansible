@@ -2,7 +2,7 @@
   hosts: localhost
   connection: localhost
   vars:
-      COURSE: DevOps
+      COURSE: DevOps with AWS
       TRAINER: Shiva
       DURIATION: 120Hrs
   tasks: 
