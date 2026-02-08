@@ -2,11 +2,13 @@
   hosts: localhost
   connection: localhost
   vars:
-      COURCE: DevOps
+      COURSE: DevOps
       TRAINER: Shiva
       DURIATION: 120Hrs
   tasks: 
   - name: print the course info
+    vars: 
+      COURSE: Ansible
     ansible.builtin.debug:
      msg: "Course name is: {{COURCE}}, Trainer: {{TRAINER}}, Duriation: {{DURIATION}}"
 
